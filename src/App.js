@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button variant="primary">Button 2</Button>
+        <Button variant="primary" onClick={() => alert("You clicked the button")}>Alert</Button>
       </header>
     </div>
   );
